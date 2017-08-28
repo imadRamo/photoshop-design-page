@@ -1,0 +1,66 @@
+.header__navbar__list,
+.section__title,
+.header__title,
+.card__title,
+.blog__title,
+.section__button,
+.header__button,
+.customer__name
+{
+    font-family: 'Lato Black';
+    text-transform: uppercase;
+    text-align: center;
+}
+.header__button,
+.section__button {
+    font-size: 15px;
+}
+
+.header__navbar__list {
+    font-size: 13px;
+}
+
+.section__subtitle {
+    text-align: center;
+}
+
+.card__content,
+.section__content,
+.blog__content {
+    font-family: 'Lato Regular';
+    font-size: 18px;
+    color: $text-color;
+    line-height: 1.3;
+}
+.section__title {
+    font-size: 21px;
+    color: $headings-color;
+}
+.section__subtitle, .header__subtitle {
+    font-family: 'SortsMillGoudy Regular';
+    font-size: 26px;
+    color: $subheadings-color;
+}
+a {
+    text-decoration: none;
+    color: $navbar-text-color;
+}
+.customer__content {
+    font-family: 'SortsMillGoudy Italic';
+    color: $customer-text-color;
+}
+.portfolio > img {
+    width: 286px;
+    height:224px;
+}
+.clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
+.features-img {
+    max-width: 100%;
+    height: auto;
+}
+
+

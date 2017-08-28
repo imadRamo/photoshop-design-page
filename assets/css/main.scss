@@ -1,6 +1,11 @@
+@import 'tools/_fonts.scss';
 @import 'tools/_vars.scss';
 @import 'tools/_reset.scss';
-/* importing fonts */
+@import 'basics/_basic.scss';
+@import 'layouts/_layout.scss';
+@import 'modules/_modules.scss';
+
+
 /* basic styles
 heading default style
 paragraphs default styles

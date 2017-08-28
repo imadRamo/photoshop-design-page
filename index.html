@@ -9,9 +9,10 @@
 </head>
 <body>
     <header class="header">
-        <div class="wrapper">
-            <h1 class="header__logo"><span>Z</span>onya</h1>
-            <nav class="header__navbar">
+        <div class="header-wrapper">
+        <div class="wrapper clearfix">
+            <h1 class="header__logo"><span class="z-logo">Z</span>onya</h1>
+            <nav class="header__navbar ">
                 <ul class="header__navbar__list">
                     <li class="header__navbar__listitem"><a href="#">home</a></li>
                     <li class="header__navbar__listitem"><a href="#">about us</a></li>
@@ -21,17 +22,20 @@
                 </ul>
             </nav>
         </div>
+    </div>
+        <div class="headings">
         <div class="container">
             <h2 class="header__title">a branding &amp; marketing company</h2>
             <p class="header__subtitle"> specializing in web design, application, corporate identity in a digital world</p>
             <a class="header__button" href="">start a project</a>
+        </div>
         </div>
     </header>
 
     <section class="section">
         <h3 class="section__title">what our services</h3>
         <p class="section__subtitle">creates quality products to make your life easier.</p>
-
+        <div class="article-wrapper">
         <article class="card">
             <img class="card__image" src="/assets/img/icon1.png" alt="">
             <h4 class="card__title">web design</h4>
@@ -59,27 +63,31 @@
             <p class="card__content">Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla. Lorem
                 ipsum dolor sit amet, psuere consectetur adipiscing elit.</p>
         </article>
+        </div>
     </section>
 
     <section class="section">
         <h3 class="section__title">features of the product</h3>
         <p class="section__subtitle">learn about our best product &amp; service features</p>
-        <img src="/assets/img/features.jpg" alt="">
-        <p class="section__content">Maecenas sed diam risus varius blandit amet non magna. Nullam id dolor ultricies vehiculaelit praesent commodo. Curabitur
-        blandit tempus porttitor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed
-        posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis.
-        Curabitur blandit tempus porttitor. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna.</p>
-        <a class="section__button" href="#">view details</a>
-        <a class="section__button" href="#">start a project</a>
+        <img class="features-img" src="/assets/img/features.jpg" alt="">
+            <p class="section__content">Maecenas sed diam risus varius blandit amet non magna. Nullam id dolor ultricies vehiculaelit praesent commodo. Curabitur
+            blandit tempus porttitor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed
+            posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis.
+            Curabitur blandit tempus porttitor. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna.</p>
+            <a class="section__button" href="#">view details</a>
+            <a class="section__button" href="#">start a project</a>
     </section>
 
     <section class="section">
-        <h3 class="section__title">our awesome works</h3>
-        <p class="section__subtitle">great design comes with understanding customer needs.</p>
-        <p class="section__content">Maecenas sed diam risus varius blandit amet non magna. Nullam id dolor ultricies vehiculaelit praesent commodo. Cum sociis
-        natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed est at lobortis mattis consectetur
-        purus.</p>
-        <a class="section__button" href="#">view all work</a>
+        <div class="portfolio-wrapper">
+        <div class="sc-container">
+            <h3 class="section__title">our awesome works</h3>
+            <p class="section__subtitle">great design comes with understanding customer needs.</p>
+            <p class="section__content">Maecenas sed diam risus varius blandit amet non magna. Nullam id dolor ultricies vehiculaelit praesent commodo. Cum sociis
+            natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed est at lobortis mattis consectetur
+            purus.</p>
+            <a class="section__button" href="#">view all work</a>
+        </div>
         <div class="portfolio">
             <img src="/assets/img/portfolio 1.png" alt="">
             <img src="/assets/img/portfolio 2.png" alt="">
@@ -88,12 +96,13 @@
             <img src="/assets/img/portfolio 5.png" alt="">
             <img src="/assets/img/portfolio 6.png" alt="">
         </div>
+        </div>
     </section>
 
     <section class="section">
         <h3 class="section__title">happy customers</h3>
         <p class="section__subtitle">what do our customers think</p>
-
+        <div class="customer-wrapper">
         <div class="customer">
             <img class="customer__image" src="/assets/img/avatar3.jpg" alt="">
             <div>
@@ -129,36 +138,42 @@
             ipsum dolor sit amet, consectetur adipiscing elit. Donec id elit non mi porta gravida at eget metus.
             </p>
         </div>
+        </div>
     </section>
 
     <section class="section">
-        <h3 class="section__title">from the blog</h3>
-        <p class="section__subtitle">our posts that got most attention</p>
-        <p class="section__content">Maecenas sed diam risus varius blandit amet non magna. Nullam id dolor ultricies vehiculaelit praesent commodo. Cum sociis
-        natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed est at lobortis mattis consectetur
-        purus.</p>
-        <a class="section__button" href="#">view posts</a>
+        <div class="blog-container">
+            <div class="sub-container">
+                <h3 class="section__title">from the blog</h3>
+                <p class="section__subtitle">our posts that got most attention</p>
+                <p class="section__content">Maecenas sed diam risus varius blandit amet non magna. Nullam id dolor ultricies vehiculaelit praesent commodo. Cum sociis
+                natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed est at lobortis mattis consectetur
+                purus.</p>
+                <a class="section__button" href="#">view posts</a>
+            </div>
+            <div class="blog-wrapper">
+                <article class="blog">
+                    <img class="blog__image" src="/assets/img/blog3.png" alt="">
+                    <h4 class="blog__title">Ligula Commodo</h4>
+                    <p class="blog__content">Sed posuere consectetur est at. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenati
+                    dapibus posuere velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris condimentum nibh.</p>
+                </article>
 
-        <article class="card">
-            <img class="card__image" src="/assets/img/blog3.png" alt="">
-            <h4 class="card__title">Ligula Commodo</h4>
-            <p class="card__content">Sed posuere consectetur est at. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenati
-            dapibus posuere velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris condimentum nibh.</p>
-        </article>
-
-        <article class="card">
-            <img class="card__image" src="/assets/img/blog2.png" alt="">
-            <h4 class="card__title">Sem Ridiculus Vestibulum</h4>
-            <p class="card__content">Sed posuere consectetur est at. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante
-                venenati dapibus posuere velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris condimentum nibh.</p>
-        </article>
-         
-        <article class="card">
-            <img class="card__image" src="/assets/img/blog1.png" alt="">
-            <h4 class="card__title">Ullamcorper Inceptos</h4>
-            <p class="card__content">Sed posuere consectetur est at. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante
-                venenati dapibus posuere velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris condimentum nibh.</p>
-        </article>
+                <article class="blog">
+                    <img class="blog__image" src="/assets/img/blog2.png" alt="">
+                    <h4 class="blog__title">Sem Ridiculus Vestibulum</h4>
+                    <p class="blog__content">Sed posuere consectetur est at. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante
+                        venenati dapibus posuere velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris condimentum nibh.</p>
+                </article>
+                
+                <article class="blog">
+                    <img class="blog__image" src="/assets/img/blog1.png" alt="">
+                    <h4 class="blog__title">Ullamcorper Inceptos</h4>
+                    <p class="blog__content">Sed posuere consectetur est at. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante
+                        venenati dapibus posuere velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris condimentum nibh.</p>
+                </article>
+            </div>
+        </div>
     </section>
     <footer>
         &copy; 2014 Zonya all right reserved. theme by elemis

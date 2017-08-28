@@ -1,0 +1,95 @@
+.header__title {
+    font-size: 40px;
+}
+.header__subtitle {
+    font-size: 26px;
+}
+ .header-wrapper {
+    background: $navbar-backcolor;
+    color: $navbar-text-color;
+}
+.headings {
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)) ,url('/assets/img/background.jpg');
+    color: white;
+}
+    .section:first-of-type,
+    .section:nth-of-type(5)
+ {
+    background: $services-backcolor;
+ }
+.section:nth-of-type(2),
+.section:nth-of-type(4) {
+    background: $products-backcolor;
+}
+.section:nth-of-type(3) {
+    background: $portfolio-backcolor;
+    color: white;
+}
+
+
+footer {
+    background: $navbar-backcolor;
+    color: $footer-text-color;
+    font-family: sans-serif;
+}
+.section:nth-of-type(3) .section__title,
+.section:nth-of-type(3) .section__subtitle,
+.section:nth-of-type(3) .section__content
+{
+    color: white;
+}
+.header__subtitle {
+    color: white;
+}
+.section__button,
+.header__button {
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.header__button {
+    background: transparent;
+    border: 1px solid white;
+    margin-top: 60px;
+}
+.section:nth-of-type(2) .section__button:first-of-type {
+    background: $darkbutton-backcolor;
+    color: white;
+    margin-right: 10px;
+}
+.section:nth-of-type(5) .section__button,
+.section:nth-of-type(2) .section__button:last-of-type {
+    background: $lightbutton-backcolor;
+    color: white;
+}
+.section:nth-of-type(3) .section__button {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.customer__image {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+}
+.customer__job {
+    font-family: 'SortsMillGoudy Italic';
+    color: #878686;
+    margin-top: 5px;
+}
+.customer__talk {
+    font-family: 'SortsMillGoudy Italic';
+    line-height: 1.2;
+    color: #878686;
+    background: white;
+    padding: 10px;
+}
+.header__logo {
+    position: relative;
+}
+.z-logo {
+    position: absolute;
+    font-size: 25px; 
+    left: 14px;
+    top: 20px;
+    color: $logo-z-color;
+}
